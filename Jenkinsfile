@@ -41,7 +41,7 @@ pipeline {
         }
         stage ("Docker build") {
             steps {
-                sh "docker build -t foreverisours/calculator ."
+                sh "docker ps"
             }
         }
     }
