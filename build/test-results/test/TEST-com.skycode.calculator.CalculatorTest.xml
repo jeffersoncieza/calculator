@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.skycode.calculator.CalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-19T16:06:48" hostname="SkyCode" time="0.0">
+  <properties/>
+  <testcase name="testSum" classname="com.skycode.calculator.CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
