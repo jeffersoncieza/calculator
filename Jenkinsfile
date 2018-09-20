@@ -11,7 +11,7 @@ pipeline {
                 sh "./gradlew test"
             }
         }
-        stage ("Code coverage") {
+        stage("Code coverage") {
             steps {
                 sh "./gradlew jacocoTestReport"
 
@@ -24,7 +24,7 @@ pipeline {
                 sh "./gradlew jacocoTestCoverageVerification"
             }
         }
-        stage ("Static code analysis") {
+        stage("Static code analysis") {
             steps {
                 sh "./gradlew checkstyleMain"
                 publishHTML (target: [
@@ -34,14 +34,19 @@ pipeline {
                 ])
             }
         }
-        stage ("Package") {
+        stage("Package") {
             steps {
                 sh "./gradlew build"
             }
         }
-        stage ("Docker build") {
+        stage("Docker build") {
             steps {
-                sh "docker ps"
+                sh "docker build -t foreverisours/calculator ."
+            }
+        }
+        stage("Docker push") {
+            steps {
+                sh "docker push foreverisours/calculator"
             }
         }
     }
