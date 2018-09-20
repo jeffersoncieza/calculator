@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d060d068-6cc9-4f91-8186-26047f6595a1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d060d068-6cc9-4f91-8186-26047f6595a1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,16 +19,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Jenkinsfile" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
+            <state relative-caret-position="442">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -510,8 +508,8 @@
         <option value="$PROJECT_DIR$/config/checkstyle/checkstyle.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/skycode/calculator/CalculatorApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/skycode/calculator/CalculatorApplicationTests.java" />
-        <option value="$PROJECT_DIR$/Jenkinsfile" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
       </list>
     </option>
   </component>
@@ -639,12 +637,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537372829925</updated>
       <workItem from="1537372833182" duration="914000" />
-      <workItem from="1537373767340" duration="6835000" />
+      <workItem from="1537373767340" duration="8710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7749000" />
+    <option name="totallyTimeSpent" value="9624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -791,17 +789,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="63" lean-forward="true" selection-start-line="43" selection-start-column="63" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
         </state>
       </provider>
     </entry>
