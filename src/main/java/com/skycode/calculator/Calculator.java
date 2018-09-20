@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class Calculator {
 
-    // Comment1
+    // Comment
     int sum(int a, int b) {
         return a + b;
     }
