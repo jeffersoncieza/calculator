@@ -58,11 +58,10 @@ pipeline {
                 sh "docker run -d --rm -p 8765:8080 --name calculator foreverisours/calculator"
             }
         }
-        stage("Acceptance test") {
-            steps {
-                sleep 30
-                sh "sudo ./acceptance_test.sh"
-            }
+    }
+    post {
+        always {
+            sh "docker stop calculator"
         }
     }
 }
