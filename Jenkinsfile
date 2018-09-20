@@ -60,8 +60,8 @@ pipeline {
         }
         stage("Acceptance test") {
             steps {
-                sleep 60
-                sh "./acceptance_test.sh"
+                sleep 30
+                sh "sudo ./acceptance_test.sh"
             }
         }
     }
