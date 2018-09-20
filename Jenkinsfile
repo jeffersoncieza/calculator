@@ -46,7 +46,11 @@ pipeline {
         }
         stage("Docker push") {
             steps {
-                sh "docker push foreverisours/calculator"
+                withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable:
+                'dockerHubPassword', usernameVariable: 'dockerHubUser')]) {
+                    sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}"
+                    sh "docker push foreverisours/calculator"
+                }
             }
         }
     }
