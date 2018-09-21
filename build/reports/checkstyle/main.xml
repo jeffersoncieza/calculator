@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.19">
+<file name="/home/skycode/Desktop/carpetas/jenkins/calculator/src/main/java/com/skycode/calculator/CacheConfig.java">
+</file>
 <file name="/home/skycode/Desktop/carpetas/jenkins/calculator/src/main/java/com/skycode/calculator/Calculator.java">
 </file>
 <file name="/home/skycode/Desktop/carpetas/jenkins/calculator/src/main/java/com/skycode/calculator/CalculatorApplication.java">
